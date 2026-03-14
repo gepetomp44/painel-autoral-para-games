@@ -1,0 +1,13 @@
+[project]
+name = "gamehub-ai-ultimate"
+version = "0.1.0"
+description = "Plataforma desktop gamer premium com organização inteligente local."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Equipe GAMEHUB AI ULTIMATE" }
+]
+
+[tool.pytest.ini_options]
+python_files = ["teste_*.py"]
+addopts = "-q"

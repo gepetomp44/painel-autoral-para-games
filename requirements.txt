@@ -1,0 +1,9 @@
+customtkinter>=5.2.2
+pillow>=10.4.0
+requests>=2.32.3
+psutil>=6.0.0
+rapidfuzz>=3.9.6
+watchdog>=4.0.1
+python-vlc>=3.0.20123
+pydantic>=2.8.2
+pytest>=8.3.2
