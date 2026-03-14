@@ -1,6 +1,5 @@
-# GAMEHUB AI ULTIMATE
-
-GAMEHUB AI ULTIMATE é uma plataforma desktop gamer premium, desenhada para organizar, enriquecer e operar bibliotecas de jogos com experiência visual de console e inteligência local.
+# GAMEHUb
+AMEHUB AI ULTIMATE é uma plataforma desktop gamer premium, desenhada para organizar, enriquecer e operar bibliotecas de jogos com experiência visual de console e inteligência local.
 
 ## Status atual
 
