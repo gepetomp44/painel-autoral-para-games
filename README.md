@@ -1,39 +1,36 @@
-# GAMEHUb
-AMEHUB AI ULTIMATE é uma plataforma desktop gamer premium, desenhada para organizar, enriquecer e operar bibliotecas de jogos com experiência visual de console e inteligência local.
+# GameHub Academy
 
-## Status atual
+Projeto de Front-End do 2º bimestre com tema gamer, desenvolvido somente com **HTML**, **CSS**, **JavaScript** e **Bootstrap**.
 
-Este repositório iniciou pela **Etapa 1**: definição arquitetural monumental, divisão completa de subsistemas e organização de pastas para crescimento sustentável.
+## Como abrir
 
-Consulte a documentação principal em:
+1. Abra o arquivo `login.html` no navegador.
+2. Faça login com:
+   - Usuário: `adm`
+   - Senha: `123`
+3. Navegue pelas telas do sistema.
 
-- [`docs/arquitetura.md`](docs/arquitetura.md)
+## Telas disponíveis
 
-## Princípios do produto
+- `login.html`: autenticação com validação em JavaScript.
+- `index.html`: tela inicial com carrossel Bootstrap.
+- `catalogo.html`: cards de jogos com imagens e textos.
+- `biblioteca.html`: tabela responsiva de progresso.
+- `perfil.html`: formulário com validação avançada.
+- `contato.html`: formulário de contato com validação.
 
-- Domínio 100% em português do Brasil.
-- Arquitetura modular por camadas e subsistemas especializados.
-- Escalabilidade local com foco em performance, cache e observabilidade.
-- Interface premium inspirada em hubs de console.
-- Preparação para evolução contínua (plugins, novos importadores, novos provedores, novas experiências visuais).
+## Requisitos atendidos
 
-## Estrutura de alto nível
-
-O projeto está organizado em áreas independentes para reduzir acoplamento e facilitar evolução:
-
-- `nucleo/`: bootstrap, estado global, eventos, tarefas e serviços transversais.
-- `dados/`: persistência SQLite, migrações, entidades e repositórios.
-- `dominio/`: entidades de negócio e contratos centrais.
-- `ia/`: organização inteligente local com regras, confiança e explicabilidade.
-- `importadores/`: conectores para launchers, pastas, executáveis e ROMs.
-- `provedores/`: coleta e consolidação de metadados e artes.
-- `cache/`: cache de imagens, metadados e consultas.
-- `servicos/`: regras de aplicação e orquestração de casos de uso.
-- `interface/`: aplicação CustomTkinter e componentes premium.
-- `observabilidade/`: logs, métricas, rastreamento e diagnósticos.
-- `seguranca/`: validação de caminhos, sanitização e políticas de execução.
-- `plugins/`: infraestrutura para extensão futura.
-
-## Próximas etapas
-
-As próximas entregas seguem o plano de 10 etapas, iniciando por bootstrap técnico, depois persistência, núcleo operacional, IA local, interface premium e suíte de testes/documentação final.
+- Mínimo de 5 telas diferentes.
+- Navegação funcional entre páginas.
+- Tela de login com dados fixos (`adm / 123`).
+- Bloqueio de telas internas sem login via `sessionStorage`.
+- Navbar funcional nas páginas.
+- Layout responsivo com Bootstrap e CSS próprio.
+- Uso de imagens SVG e textos.
+- Uso de formulários.
+- Animações CSS: fade in, hover, zoom, transições e keyframes.
+- Carrossel Bootstrap na tela inicial.
+- Dark mode com persistência em `localStorage`.
+- Validação avançada de e-mail, senha, confirmação de senha, CPF, telefone e campos obrigatórios.
+- Código organizado em HTML, CSS e JavaScript separados.

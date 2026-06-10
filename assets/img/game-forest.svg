@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Mystic Forest">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#064e3b"/><stop offset="1" stop-color="#84cc16"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".35"/></filter></defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <circle cx="210" cy="145" r="115" fill="rgba(255,255,255,.16)"/>
+  <circle cx="1000" cy="625" r="160" fill="rgba(255,255,255,.12)"/>
+  <path d="M120 560 C360 430 520 700 760 520 S1040 390 1140 520" fill="none" stroke="rgba(255,255,255,.32)" stroke-width="22"/>
+  <g filter="url(#s)"><rect x="280" y="190" width="640" height="330" rx="52" fill="rgba(5,10,35,.62)" stroke="rgba(255,255,255,.35)" stroke-width="5"/><text x="600" y="345" text-anchor="middle" font-size="118" font-family="Arial">🌲</text><text x="600" y="445" text-anchor="middle" fill="white" font-size="58" font-weight="700" font-family="Arial">Mystic Forest</text></g>
+</svg>
